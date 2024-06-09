@@ -1,0 +1,12 @@
+{% extends "base.html.twig" %}
+{% block stylesheets %}
+	{{parent()}}
+	{{ encore_entry_link_tags('homepage') }}
+{% endblock %}
+{% block javascripts %}
+	{{parent()}}
+	{{ encore_entry_script_tags('homepage') }}
+{% endblock %}
+{% block body %}
+	<h1>Home page</h1>
+{% endblock %}
